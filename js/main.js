@@ -5,7 +5,7 @@ const galleryCaption = document.querySelector(".gallery-caption");
 const closeButton = document.querySelector(".gallery-close");
 const previousButton = document.querySelector(".gallery-previous");
 const nextButton = document.querySelector(".gallery-next");
-
+// I like how you put all the images you wanted to access in an object that is really cool -Julian
 const galleries = {
   hiking: [
     {
@@ -253,7 +253,7 @@ if (galleryModal) {
 
   nextButton.addEventListener("click", () => {
     currentImageIndex++;
-
+// I see how you are cycling through your images here. Looks good! -Julian
     if (currentImageIndex >= currentGallery.length) {
       currentImageIndex = 0;
     }
@@ -317,3 +317,4 @@ if (backToTopButton) {
     });
   });
 }
+// Overall some very readable and understandable JavaScript here! Good work! I was thinking about making a click through gallery myself but decided not to. You made it look easy though so next time I'll give it a try. -Julian
