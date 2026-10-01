@@ -4,6 +4,10 @@
 
 Alejandra Aimee Rivas Montes
 
+#Partner code review
+
+You can find my partner code review at https://github.com/MaloofDev/MaloofDev.github.io/pull/1
+
 ## Objective
 
 This project is a personal portfolio website that represents my professional,
