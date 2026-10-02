@@ -7,6 +7,7 @@
   --off-white: #f7f9fc;
   --charcoal: #17202a;
 }
+/* Nice color choices and naming with variables -Julian */
 
 body {
   margin: 0;
@@ -62,7 +63,7 @@ nav a {
   border-radius: 50%;
   object-fit: cover;
 }
-
+/* I love how you used absolute positioning to get your links to "orbit" around you hero image! -Julian */
 .orbit-link {
   position: absolute;
   width: 85px;
@@ -216,7 +217,7 @@ nav a {
   padding: 0;
   list-style: none;
 }
-
+/* I really like how you made the certifications pop with your styling here. Good decision too because that is alot of certs! Good stuff! -Julian */
 .certifications-list li {
   background-color: var(--deep-blue);
   color: white;
